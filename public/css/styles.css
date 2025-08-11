@@ -1,0 +1,90 @@
+*{
+    font-family: "Kanit", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;/* Jumlah baris yang ingin dibatasi */
+    overflow: hidden;
+}
+
+.container {
+    max-width: 2400px;
+    margin: 0 auto; /* untuk menempatkan konten di tengah */
+}
+
+.hidden {
+    display: none;
+}
+
+.psikolog-card {
+    min-height: 200px; /* Semua kartu memiliki tinggi minimum yang sama */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.psikolog-card img {
+    width: 100%; /* Pastikan gambar terlihat rapi */
+    height: 100%;
+    object-fit: cover;
+}
+
+.psikolog-card span {
+    margin-right: 0.5rem; /* Jarak antar tag issues */
+}
+
+.psikolog-card button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.grid {
+    gap: 1rem; /* Konsisten jarak antar kartu */
+}
+.issues-container {
+    display: flex;
+    flex-wrap: nowrap; /* Semua elemen tetap dalam satu baris */
+    overflow: hidden; /* Pastikan elemen tidak meluber */
+    align-items: center; /* Vertikal sejajar */
+    white-space: nowrap; /* Hindari elemen melompat ke baris baru */
+}
+
+.issue-item {
+    margin-right: 8px; /* Jarak antar elemen */
+    display: inline-block;
+    white-space: nowrap; /* Hindari teks melompat ke baris baru */
+}
+
+.extra-count {
+    display: inline-block; /* Sama seperti issue-item */
+    margin-right: 0; /* Pastikan margin-nya sesuai */
+    color: #64748b; /* Tambahkan warna sesuai kebutuhan */
+}
+
+#paymentModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay */
+    justify-content: center;
+    align-items: center;
+}
+
+#paymentModal .modal-content {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 400px;
+}
+

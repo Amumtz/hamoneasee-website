@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 100vh;
+    font-family: Kanit, sans-serif;
+}
+.tulisan{
+    text-align: center;
+    line-height: 1;
+}
+.tulisan h1{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+.tulisan p{
+    font-size: 16px;
+}
+.gambar img{
+    position:relative;
+    margin: 10px;
+    align-items: center;
+    height: 350px;
+    width: 100vh;
+}
+.kotak{
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #c2c0c0;
+    background-color: white;
+    margin: 0 auto;
+    width: 350px;
+    height: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.form-item label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    font-size: 16px;
+    font-family: Kanit, sans-serif;
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+.checkbox{
+    font-size: 12px;
+    text-align: center;
+}
+
+button {
+    width: 98%;
+    background-color: #7AD8FE;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.google-btn {
+    display: inline-flex;
+    font-size: 16px;
+    width: 85%;
+    background-color: #fff;
+    color: #4285F4;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    margin-top: 5px;
+    padding: 7px 20px;
+    text-align:center;
+    text-decoration: none;
+    align-items: center;
+ }
+
+img{
+    margin-right: 7px;
+    margin-left: 60px;
+    height: 22px;
+    width: 22px;
+}

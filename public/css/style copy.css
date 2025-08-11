@@ -1,0 +1,166 @@
+body {
+    color: #333;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #339af0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #339af0;
+    border: none;
+    
+}
+
+.btn-primary:hover {
+    background-color: #1d3557;
+}
+
+/* Warna biru muda */
+.text-primary {
+    color: #006494 !important;
+}
+
+/* Tombol */
+.btn-primary {
+    background-color: #339af0;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1d3557;
+}
+
+/* Gaya fitur */
+.features div h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.features div p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.gambarawal {
+    width: 700px; /* Gambar akan menyesuaikan dengan lebar kontainer */
+    height: 500px; /* Menjaga proporsi gambar */
+    /* border-radius: 30%; */
+}
+
+.gambarkonsultasi {
+    width: 500px; /* Gambar akan menyesuaikan dengan lebar kontainer */
+    height: 500px; /* Menjaga proporsi gambar */
+}
+
+.gambarmeditasi {
+    width: 500px; /* Gambar akan menyesuaikan dengan lebar kontainer */
+    height: 500px; /* Menjaga proporsi gambar */
+}
+
+.gambarwisata {
+    width: 300px; /* Gambar akan menyesuaikan dengan lebar kontainer */
+    height: 175px; /* Menjaga proporsi gambar */
+    border-radius: 15%;
+}
+
+.artikel-kesehatan {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+#buttona {
+    width: 200px;
+    
+}
+
+
+.meditation-card {
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.meditation-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.meditation-card img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.test-category-card {
+    border-radius: 10px;
+    min-height: 200px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.test-category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.test-category-card .card-header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.test-category-card .card-body {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.large-icon {
+    font-size: 150px;
+}
+
+
+
+
+
+
+
+
